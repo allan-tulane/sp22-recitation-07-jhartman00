@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "repl_python3_sp22-recitation-07-jhartman00"
+version = "0.1.0"
+description = ""
+authors = ["jhartman00 <<>>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+bitarray = "^2.4.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
