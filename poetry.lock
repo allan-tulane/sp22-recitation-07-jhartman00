@@ -6,10 +6,21 @@ category = "main"
 optional = false
 python-versions = "*"
 
+[[package]]
+name = "tabulate"
+version = "0.8.9"
+description = "Pretty-print tabular data"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.extras]
+widechars = ["wcwidth"]
+
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "4ae9f1a8be8e53b3a7f145d041dd5d11b76c59fcc32ac9c36e0e760248252407"
+content-hash = "7404f115d4f6af4f139b2277dfae4bfce715271f441cfab18a03f3b103518f97"
 
 [metadata.files]
 bitarray = [
@@ -85,4 +96,8 @@ bitarray = [
     {file = "bitarray-2.4.1-cp39-cp39-win32.whl", hash = "sha256:98fbb749fa4047fa2e1049aa0cde4f6020defd2b40ed8bf31dd1f2c1ef07e416"},
     {file = "bitarray-2.4.1-cp39-cp39-win_amd64.whl", hash = "sha256:57f52f9f5fcd086961c6055337e22d4ea5ce442fd7b8a101e25cd4a6059069d5"},
     {file = "bitarray-2.4.1.tar.gz", hash = "sha256:faeca03f979e992cc76f7406af7eb9795cb111b8d8969c891a032bd7497c87da"},
+]
+tabulate = [
+    {file = "tabulate-0.8.9-py3-none-any.whl", hash = "sha256:d7c013fe7abbc5e491394e10fa845f8f32fe54f8dc60c6622c6cf482d25d47e4"},
+    {file = "tabulate-0.8.9.tar.gz", hash = "sha256:eb1d13f25760052e8931f2ef80aaf6045a6cceb47514db8beab24cded16f13a7"},
 ]
